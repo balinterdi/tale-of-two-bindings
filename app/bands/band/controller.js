@@ -13,9 +13,8 @@ export default Ember.Controller.extend({
   },
 
   actions: {
-    updateRating(params) {
-      const { item: band, rating } = params;
-      band.set('rating', rating);
+    updateBandProperty(property, value) {
+      this.get('model').set(property, value);
     },
 
     saveBand() {
