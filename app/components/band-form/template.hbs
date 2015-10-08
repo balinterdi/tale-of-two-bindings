@@ -1,0 +1,12 @@
+<div class="form-group">
+  <label for="band-name">Name</label>
+  {{input type="text" class="form-control" id="band-name" value=band.name}}
+</div>
+<div class="form-group">
+  <label for="band-year">Formed in</label>
+  {{input type="text" class="form-control" id="band-year" value=band.year}}
+</div>
+<div class="form-group">
+  <label for="band-rating">Rating</label>
+  {{star-rating id="band-rating" item=band rating=band.rating on-click=on-star-click}}
+</div>

@@ -1,0 +1,6 @@
+<div class="panel panel-default band-panel">
+  <div class="panel-body">
+    {{band-form band=model on-star-click=(action "updateRating")}}
+    <button type="button" class="btn btn-primary pull-right" {{action "saveBand"}}>Submit</button>
+  </div>
+</div>

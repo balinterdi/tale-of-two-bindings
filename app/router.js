@@ -6,6 +6,9 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('bands', { path: '/' }, function() {
+    this.route('band', { path: 'bands/:id'});
+  });
 });
 
 export default Router;
