@@ -148,3 +148,7 @@ html, body {
   width: 31px;
   margin: 0 auto;
 }
+
+.button-panel button + button {
+  margin-right: 5px;
+}
