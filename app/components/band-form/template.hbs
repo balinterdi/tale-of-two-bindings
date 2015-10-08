@@ -1,4 +1,4 @@
-<div class="form-group">
+<div class={{if errors.name "form-group has-error" "form-group"}}>
   <label for="band-name">Name</label>
   {{input type="text" class="form-control" id="band-name" value=band.name}}
 </div>

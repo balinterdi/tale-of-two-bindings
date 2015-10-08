@@ -1,5 +1,5 @@
 <div class="panel panel-default band-panel">
   <div class="panel-body">
-    {{band-form band=model on-star-click=(action "updateRating") on-save=(action "saveBand")}}
+    {{band-form band=model errors=errors on-save=(action "saveBand") on-star-click=(action "updateRating")}}
   </div>
 </div>
