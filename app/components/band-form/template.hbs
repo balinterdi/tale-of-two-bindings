@@ -1,12 +1,12 @@
 <div class={{if errors.name "form-group has-error" "form-group"}}>
   <label for="band-name">Name</label>
-  <input type="text" class="form-control" id="band-name" value={{name}}
-    oninput={{action "nameDidChange" value="target.value"}} />
+  {{one-way-input type="text" class="form-control" id="band-name" value=name
+    update=(action "nameDidChange")}}
 </div>
 <div class="form-group">
   <label for="band-year">Formed in</label>
-  <input type="text" class="form-control" id="band-year" value={{year}}
-    oninput={{action "yearDidChange" value="target.value"}} />
+  {{one-way-input type="text" class="form-control" id="band-year" value=year
+    update=(action "yearDidChange")}}
 </div>
 <div class="form-group">
   <label for="band-rating">Rating</label>
