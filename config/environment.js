@@ -11,7 +11,7 @@ const contentSecurityPolicy = {
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'rarwe-ccd',
+    modulePrefix: 'tale-of-two-bindings',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',

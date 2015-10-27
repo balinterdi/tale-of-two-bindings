@@ -1,7 +1,7 @@
 {
-  "name": "rarwe-ccd",
+  "name": "tale-of-two-bindings",
   "version": "0.0.0",
-  "description": "Small description for rarwe-ccd goes here",
+  "description": "Small description for tale-of-two-bindings goes here",
   "private": true,
   "directories": {
     "doc": "doc",
